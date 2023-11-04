@@ -17,4 +17,18 @@ public class Converter {
         System.out.println("There are " + kilometers + " kilometers in " + miles + " miles");
     } // prints how many kilometers in miles
 
+    // kilometers to miles converter
+
+    final static double KILOMETER_TO_MILE = 0.621371; // how many miles in one kilometer
+
+    public static double convertKilometersToMiles (double kilometers) {
+
+        return kilometers * KILOMETER_TO_MILE;
+    } // converts kilometers to miles
+
+    public static void printMiles(double kilometers, double miles) {
+
+        System.out.println("There are " + miles + " miles in " + kilometers + " kilometers");
+    } // prints how many miles in kilometers
+
 }
