@@ -31,4 +31,16 @@ public class Converter {
         System.out.println("There are " + miles + " miles in " + kilometers + " kilometers");
     } // prints how many miles in kilometers
 
+
+    public static void main(String[] args) {
+
+        double miles = 2;
+        double kmsInMiles = convertMilesToKilometers(miles);
+        printKilometers(miles,kmsInMiles);
+
+        double kms = 3;
+        double milesInKms = convertKilometersToMiles(kms);
+        printMiles(kms,milesInKms);
+    }
+
 }
